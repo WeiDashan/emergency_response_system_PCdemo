@@ -1,0 +1,173 @@
+{
+  "name": "事件管理",
+  "details": {
+    "eventtype": "",
+    "eventname": "",
+    "eventrate": ""
+  },
+  "children":[
+    {
+      "name": "自然灾害",
+      "details": {
+        "eventtype": "自然灾害",
+        "eventname": "",
+        "eventrate": ""
+      },
+      "children": [
+        {
+          "name": "水灾",
+          "details": {
+            "eventtype": "自然灾害",
+            "eventname": "水灾",
+            "eventrate": ""
+          },
+          "children": [
+            {
+              "name": "一级",
+              "details": {
+                "eventtype": "自然灾害",
+                "eventname": "水灾",
+                "eventrate": "一级"
+              },
+              "children":[]
+            }
+          ]
+        },
+        {
+          "name": "旱灾",
+          "details": {
+            "eventtype": "自然灾害",
+            "eventname": "旱灾",
+            "eventrate": ""
+          },
+          "children": [
+            {
+              "details": {
+                "eventtype": "自然灾害",
+                "eventname": "旱灾",
+                "eventrate": "一级"
+              },
+              "name": "一级",
+              "children":[]
+            }
+          ]
+        },
+        {
+          "name": "火灾",
+          "details": {
+            "eventtype": "自然灾害",
+            "eventname": "火灾",
+            "eventrate": ""
+          },
+          "children": [
+            {
+              "details": {
+                "eventtype": "自然灾害",
+                "eventname": "火灾",
+                "eventrate": "一级"
+              },
+              "name": "一级",
+              "children":[]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "事故灾难",
+      "details": {
+        "eventtype": "事故灾难",
+        "eventname": "",
+        "eventrate": ""
+      },
+      "children":[
+        {
+          "details": {
+            "eventtype": "事故灾难",
+            "eventname": "公交车侧翻",
+            "eventrate": ""
+          },
+          "name": "公交车侧翻",
+          "children": [
+            {
+              "details": {
+                "eventtype": "事故灾难",
+                "eventname": "公交车侧翻",
+                "eventrate": "二级"
+              },
+              "name": "二级",
+              "children":[]
+            }
+          ]
+        },
+        {
+          "name": "工人猝死",
+          "details": {
+            "eventtype": "事故灾难",
+            "eventname": "工人猝死",
+            "eventrate": ""
+          },
+          "children": [
+            {
+              "details": {
+                "eventtype": "事故灾难",
+                "eventname": "工人猝死",
+                "eventrate": "四级"
+              },
+              "name": "四级",
+              "children":[]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "公共卫生事件",
+      "details": {
+        "eventtype": "公共卫生事件",
+        "eventname": "",
+        "eventrate": ""
+      },
+      "children": [
+        {
+          "details": {
+            "eventtype": "公共卫生事件",
+            "eventname": "矿泉水污染",
+            "eventrate": ""
+          },
+          "name": "矿泉水污染",
+          "children": [
+            {
+              "details": {
+                "eventtype": "公共卫生事件",
+                "eventname": "矿泉水污染",
+                "eventrate": "三级"
+              },
+              "name": "三级",
+              "children":[]
+            }
+          ]
+        },
+        {
+          "name": "核污染",
+          "details": {
+            "eventtype": "公共卫生事件",
+            "eventname": "核污染",
+            "eventrate": ""
+          },
+          "children": [
+            {
+              "details": {
+                "eventtype": "公共卫生事件",
+                "eventname": "核污染",
+                "eventrate": "一级"
+              },
+              "name": "一级",
+              "children":[]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
